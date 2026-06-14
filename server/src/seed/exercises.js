@@ -1,0 +1,73 @@
+const exercises = [
+  {
+    name: 'Push-Up',
+    category: 'upper body',
+    difficulty: 'beginner',
+    targetMuscles: ['Chest', 'Shoulders', 'Triceps'],
+    equipment: ['Bodyweight'],
+    description:
+      'A foundational upper body movement that builds pressing strength and shoulder stability when performed with strict form.',
+    postureSteps: [
+      { stepNumber: 1, instruction: 'Start in a plank with hands slightly wider than shoulder width.' },
+      { stepNumber: 2, instruction: 'Keep your core braced and body in a straight line from head to heels.' },
+      { stepNumber: 3, instruction: 'Lower your chest toward the floor by bending elbows at about 45 degrees.' },
+      { stepNumber: 4, instruction: 'Pause briefly, then press through your palms to return to the start.' },
+    ],
+    tips: ['Keep your neck neutral.', 'Drive the floor away on the way up.'],
+    commonMistakes: ['Hips sagging', 'Elbows flaring too far out'],
+    durationMinutes: 10,
+  },
+  {
+    name: 'Dumbbell Shoulder Press',
+    category: 'upper body',
+    difficulty: 'intermediate',
+    targetMuscles: ['Deltoids', 'Triceps'],
+    equipment: ['Dumbbells'],
+    description: 'A vertical pressing movement to improve shoulder strength and stability.',
+    postureSteps: [
+      { stepNumber: 1, instruction: 'Stand tall or sit upright with dumbbells at shoulder level.' },
+      { stepNumber: 2, instruction: 'Brace your core and keep your ribs down.' },
+      { stepNumber: 3, instruction: 'Press dumbbells overhead until arms are extended without shrugging.' },
+      { stepNumber: 4, instruction: 'Lower slowly to shoulder height under control.' },
+    ],
+    tips: ['Avoid over-arching your lower back.', 'Move in a smooth vertical path.'],
+    commonMistakes: ['Using momentum', 'Locking out with shoulder shrug'],
+    durationMinutes: 12,
+  },
+  {
+    name: 'Bodyweight Squat',
+    category: 'lower body',
+    difficulty: 'beginner',
+    targetMuscles: ['Quadriceps', 'Glutes', 'Hamstrings'],
+    equipment: ['Bodyweight'],
+    description: 'A key lower-body pattern for building leg strength and movement control.',
+    postureSteps: [
+      { stepNumber: 1, instruction: 'Stand with feet shoulder-width apart and toes slightly outward.' },
+      { stepNumber: 2, instruction: 'Brace your core and keep your chest lifted.' },
+      { stepNumber: 3, instruction: 'Sit your hips back and down while tracking knees over toes.' },
+      { stepNumber: 4, instruction: 'Drive through mid-foot to stand back up.' },
+    ],
+    tips: ['Keep heels planted.', 'Control the descent.'],
+    commonMistakes: ['Knees collapsing inward', 'Rounding the lower back'],
+    durationMinutes: 12,
+  },
+  {
+    name: 'Romanian Deadlift',
+    category: 'lower body',
+    difficulty: 'intermediate',
+    targetMuscles: ['Hamstrings', 'Glutes', 'Lower Back'],
+    equipment: ['Barbell or Dumbbells'],
+    description: 'A hip-hinge movement for posterior chain strength and posture awareness.',
+    postureSteps: [
+      { stepNumber: 1, instruction: 'Stand tall with weights in front of thighs and soft knees.' },
+      { stepNumber: 2, instruction: 'Hinge at the hips while keeping your spine neutral.' },
+      { stepNumber: 3, instruction: 'Lower weights close to your legs until hamstrings stretch.' },
+      { stepNumber: 4, instruction: 'Push hips forward to return to standing while squeezing glutes.' },
+    ],
+    tips: ['Keep lats engaged to keep weights close.', 'Do not round your back.'],
+    commonMistakes: ['Turning it into a squat', 'Lowering too deep with spinal flexion'],
+    durationMinutes: 15,
+  },
+];
+
+module.exports = exercises;
